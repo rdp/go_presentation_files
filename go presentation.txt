@@ -1,0 +1,37 @@
+todo: github repo, rename them all from program1.go to real names
+
+Go: 90% Perfect, 100% of the time
+
+compiled, cross between Python and C, GC like JVM.
+
+download and install it [windows, to c:\go, may need reboot]:
+
+http://golang.org/dl/
+$ sudo apt-get install golang-go
+
+$ go version # should work [may require new console]
+
+=== program1.go === type it in, then run like $ go run program1.go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world")
+}
+
+ === program 3 goroutines ===
+ === program 4 channels ===
+ === TODO select program ===
+ === program 2 error handling ===
+ === https://golang.org/doc/articles/wiki/ === everybody pull it up!
+ === Introducing the net/http package program 5 === http://localhost:8080/abc
+ === Wiki pages how to save them to disk wiki1.go === should create TestPage.txt
+ === Wiki with a web server create file test.txt, wiki2.go === http://localhost:8080/view/test [can just edit it from now on]
+ === Wiki web server edit abilities [wiki3.go] === http://localhost:8080/edit/test
+ === Using templates [wiki4.go] === http://localhost:8080/edit/test
+ === Validation [wiki5.go] == http://localhost:8080/edit/test_bad_name
+ === Methods as parameters wiki6.go === http://localhost:8080/edit/test_bad_name http://localhost:8080/view/test_bad_name
+
+ == error handling (section) ==
+ === they want it to do ===
