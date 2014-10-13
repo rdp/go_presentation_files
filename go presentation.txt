@@ -1,7 +1,7 @@
 todo: rename them all from program1.go to real names, better select
 
 Go: 90% Perfect, 100% of the time
-Go: compiled, cross between Python and C, GC like JVM.
+Go: compiled language, cross between Python and C, GC like JVM.
 
 download and install it [windows, to c:\go, may need reboot]:
 
