@@ -28,12 +28,12 @@ func main() {
  === errorhandling.go error handling ===
  === https://golang.org/doc/articles/wiki/ === everybody pull it up!
  === "Introducing the net/http package" demoserver.go === http://localhost:8080/abc
- === Wiki pages how to save them to disk wiki1.go === should create TestPage.txt
- === Wiki with a web server create file test.txt, wiki2.go === http://localhost:8080/view/test [can just edit it from now on]
- === Wiki web server edit abilities [wiki3.go] === http://localhost:8080/edit/test
- === Using templates [wiki4.go] === http://localhost:8080/edit/test
- === Validation [wiki5.go] == http://localhost:8080/edit/test_bad_name
- === Methods as parameters wiki6.go === http://localhost:8080/edit/test_bad_name http://localhost:8080/view/test_bad_name
-
- == error handling (section) ==
- === they want it to do ===
+ === Wiki pages how to save them to disk ("Getting Started/Data Structures") wiki1.go === run it, should create TestPage.txt
+ === "Using net/http to serve wiki pages" wiki2.go === manually create file test.txt http://localhost:8080/view/test [can just supplement wiki1.go]
+ === "Editing[/Saving] pages" [wiki3.go] === http://localhost:8080/edit/test
+ === "The html/template package" [wiki4.go] === http://localhost:8080/edit/test
+ === "Error handling" (validation) [wiki5.go] == http://localhost:8080/edit/test_bad_name
+ === "Introducing Function Literals and Closures"
+(Methods as parameters) wiki6.go === http://localhost:8080/edit/test_bad_name http://localhost:8080/view/test_bad_name
+ == "Error handling" wiki7.go ==
+ === "template cacheing" ===
