@@ -1,8 +1,7 @@
 todo: github repo, rename them all from program1.go to real names
 
 Go: 90% Perfect, 100% of the time
-
-compiled, cross between Python and C, GC like JVM.
+Go: compiled, cross between Python and C, GC like JVM.
 
 download and install it [windows, to c:\go, may need reboot]:
 
@@ -11,7 +10,8 @@ $ sudo apt-get install golang-go
 
 $ go version # should work [may require new console]
 
-=== program1.go === type it in, then run like $ go run program1.go
+=== helloworld.go === save it, then run like $ go run program1.go
+
 package main
 
 import "fmt"
@@ -20,10 +20,10 @@ func main() {
     fmt.Println("Hello, world")
 }
 
- === program 3 goroutines ===
+ === goroutines.go goroutines ===
  === program 4 channels ===
  === TODO select program ===
- === program 2 error handling ===
+ === errorhandling.go error handling ===
  === https://golang.org/doc/articles/wiki/ === everybody pull it up!
  === Introducing the net/http package program 5 === http://localhost:8080/abc
  === Wiki pages how to save them to disk wiki1.go === should create TestPage.txt
