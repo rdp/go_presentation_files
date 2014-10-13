@@ -35,5 +35,5 @@ func main() {
  === "Error handling" (validation) [wiki5.go] == http://localhost:8080/edit/test_bad_name
  === "Introducing Function Literals and Closures"
 (Methods as parameters) wiki6.go === http://localhost:8080/edit/test_bad_name http://localhost:8080/view/test_bad_name
- == "Error handling" wiki7.go ==
- === "template cacheing" ===
+ == "Error handling" (more) wiki7.go ==
+ === "Template cacheing" or desired ===
