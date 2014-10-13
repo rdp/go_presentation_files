@@ -1,4 +1,4 @@
-todo: github repo, rename them all from program1.go to real names
+todo: rename them all from program1.go to real names, better select
 
 Go: 90% Perfect, 100% of the time
 Go: compiled, cross between Python and C, GC like JVM.
@@ -10,7 +10,7 @@ $ sudo apt-get install golang-go
 
 $ go version # should work [may require new console]
 
-=== helloworld.go === save it, then run like $ go run program1.go
+=== helloworld.go === save file, then run like $ go run program1.go
 
 package main
 
@@ -20,9 +20,9 @@ func main() {
     fmt.Println("Hello, world")
 }
 
- === goroutines.go goroutines ===
- === program 4 channels ===
- === TODO select program ===
+ === goroutines{1,2}.go goroutines ===
+ === channels.go ===
+ === select.go program ===
  === errorhandling.go error handling ===
  === https://golang.org/doc/articles/wiki/ === everybody pull it up!
  === Introducing the net/http package program 5 === http://localhost:8080/abc
