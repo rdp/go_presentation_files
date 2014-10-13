@@ -10,6 +10,8 @@ $ sudo apt-get install golang-go
 
 $ go version # should work [may require new console]
 
+https://golang.org/doc/articles/wiki
+
 === helloworld.go === save file, then run like $ go run program1.go
 
 package main
@@ -25,7 +27,7 @@ func main() {
  === select.go program ===
  === errorhandling.go error handling ===
  === https://golang.org/doc/articles/wiki/ === everybody pull it up!
- === Introducing the net/http package program 5 === http://localhost:8080/abc
+ === "Introducing the net/http package" demoserver.go === http://localhost:8080/abc
  === Wiki pages how to save them to disk wiki1.go === should create TestPage.txt
  === Wiki with a web server create file test.txt, wiki2.go === http://localhost:8080/view/test [can just edit it from now on]
  === Wiki web server edit abilities [wiki3.go] === http://localhost:8080/edit/test

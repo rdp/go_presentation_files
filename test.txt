@@ -1,1 +1,0 @@
-some text from the file test.txt ok from a template

@@ -12,5 +12,5 @@ func main() {
    
     // Here we'll wait for the "ping" message
     msg := <-messages
-    fmt.Println(msg)
+    fmt.Println("received via channel:" + msg)
 }
