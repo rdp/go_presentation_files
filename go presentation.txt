@@ -1,15 +1,16 @@
 Go: 90% Perfect, 100% of the time
+
 Go: compiled language, cross between Python and C, GC like JVM [node?]
-Best presentation evar.
+Best evar.
 
 Download and install go [windows, to c:\go, may need reboot]:
 http://golang.org/dl/
-$ sudo apt-get install golang-go # ubuntu
+$ sudo apt-get install golang-go # (Ubuntu)
 $ go version # should work [may require new console]
 
 https://golang.org/doc/articles/wiki
 $ git clone https://github.com/rdp/go_presentation_files.git
-or download https://github.com/rdp/go_presentation_files/archive/master.zip
+or download zip: https://github.com/rdp/go_presentation_files/archive/master.zip
 
 === helloworld.go === save file, then run like $ go run program1.go
 package main
