@@ -1,19 +1,17 @@
-todo: rename them all from program1.go to real names, better select
-
 Go: 90% Perfect, 100% of the time
-Go: compiled language, cross between Python and C, GC like JVM.
+Go: compiled language, cross between Python and C, GC like JVM [node?]
+Best presentation evar.
 
-download and install it [windows, to c:\go, may need reboot]:
-
+Download and install go [windows, to c:\go, may need reboot]:
 http://golang.org/dl/
-$ sudo apt-get install golang-go
-
+$ sudo apt-get install golang-go # ubuntu
 $ go version # should work [may require new console]
 
 https://golang.org/doc/articles/wiki
+$ git clone https://github.com/rdp/go_presentation_files.git
+or download https://github.com/rdp/go_presentation_files/archive/master.zip
 
 === helloworld.go === save file, then run like $ go run program1.go
-
 package main
 
 import "fmt"
@@ -21,7 +19,6 @@ import "fmt"
 func main() {
     fmt.Println("Hello, world")
 }
-
  === goroutines{1,2}.go goroutines ===
  === channels.go ===
  === select.go program ===
